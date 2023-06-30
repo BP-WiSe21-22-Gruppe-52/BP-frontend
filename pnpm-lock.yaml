@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ant-design/icons':
     specifier: 5.0.1
@@ -68,8 +72,8 @@ dependencies:
     specifier: 4.2.1
     version: 4.2.1(eslint@8.40.0)(prettier@2.8.8)
   i18next:
-    specifier: 22.4.15
-    version: 22.4.15
+    specifier: 22.5.1
+    version: 22.5.1
   i18next-browser-languagedetector:
     specifier: 7.0.1
     version: 7.0.1
@@ -111,7 +115,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-i18next:
     specifier: 12.2.2
-    version: 12.2.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+    version: 12.2.2(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0)
   react-icons:
     specifier: 4.8.0
     version: 4.8.0(react@18.2.0)
@@ -6642,8 +6646,8 @@ packages:
       '@babel/runtime': 7.21.5
     dev: false
 
-  /i18next@22.4.15:
-    resolution: {integrity: sha512-yYudtbFrrmWKLEhl6jvKUYyYunj4bTBCe2qIUYAxbXoPusY7YmdwPvOE6fx6UIfWvmlbCWDItr7wIs8KEBZ5Zg==}
+  /i18next@22.5.1:
+    resolution: {integrity: sha512-8TGPgM3pAD+VRsMtUMNknRz3kzqwp/gPALrWMsDnmC1mKqJwpWyooQRLMcbTwq8z8YwSmuj+ZYvc+xCuEpkssA==}
     dependencies:
       '@babel/runtime': 7.21.5
     dev: false
@@ -10506,7 +10510,7 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: false
 
-  /react-i18next@12.2.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0):
+  /react-i18next@12.2.2(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-KBB6buBmVKXUWNxXHdnthp+38gPyBT46hJCAIQ8rX19NFL/m2ahte2KARfIDf2tMnSAL7wwck6eDOd/9zn6aFg==}
     peerDependencies:
       i18next: '>= 19.0.0'
@@ -10521,7 +10525,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.5
       html-parse-stringify: 3.0.1
-      i18next: 22.4.15
+      i18next: 22.5.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
