@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ant-design/icons':
     specifier: 5.0.1
@@ -110,8 +114,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-i18next:
-    specifier: 12.2.2
-    version: 12.2.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 12.3.1
+    version: 12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0)
   react-icons:
     specifier: 4.8.0
     version: 4.8.0(react@18.2.0)
@@ -10506,8 +10510,8 @@ packages:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
     dev: false
 
-  /react-i18next@12.2.2(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-KBB6buBmVKXUWNxXHdnthp+38gPyBT46hJCAIQ8rX19NFL/m2ahte2KARfIDf2tMnSAL7wwck6eDOd/9zn6aFg==}
+  /react-i18next@12.3.1(i18next@22.4.15)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-5v8E2XjZDFzK7K87eSwC7AJcAkcLt5xYZ4+yTPDAW1i7C93oOY1dnr4BaQM7un4Hm+GmghuiPvevWwlca5PwDA==}
     peerDependencies:
       i18next: '>= 19.0.0'
       react: '>= 16.8.0'
