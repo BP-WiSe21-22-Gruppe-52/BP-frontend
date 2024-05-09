@@ -6,7 +6,7 @@
   "packageManager": "^pnpm@7.5.0",
   "dependencies": {
     "@ant-design/icons": "5.0.1",
-    "@ant-design/plots": "1.2.5",
+    "@ant-design/plots": "1.2.6",
     "@antv/g2": "4.2.10",
     "@babel/plugin-syntax-flow": "7.21.4",
     "@babel/plugin-transform-react-jsx": "7.21.5",
