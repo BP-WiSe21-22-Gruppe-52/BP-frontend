@@ -34,7 +34,7 @@
     "postcss": "^8.4.23",
     "prettier": "2.8.8",
     "prop-types": "15.8.1",
-    "rc-menu": "9.8.4",
+    "rc-menu": "9.16.0",
     "rc-table": "7.32.1",
     "rc-tween-one": "^3.0.6",
     "react": "18.2.0",
