@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@ant-design/icons':
     specifier: 5.0.1
@@ -125,11 +129,11 @@ dependencies:
     specifier: 8.0.5
     version: 8.0.5(@types/react-dom@18.2.4)(@types/react@18.2.6)(react-dom@18.2.0)(react@18.2.0)(redux@4.2.1)
   react-router:
-    specifier: 6.11.1
-    version: 6.11.1(react@18.2.0)
+    specifier: 6.29.0
+    version: 6.29.0(react@18.2.0)
   react-router-dom:
-    specifier: 6.11.1
-    version: 6.11.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.29.0
+    version: 6.29.0(react-dom@18.2.0)(react@18.2.0)
   react-scripts:
     specifier: 5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.21.4)(@babel/plugin-transform-react-jsx@7.21.5)(canvas@2.11.2)(eslint@8.40.0)(react@18.2.0)(typescript@5.0.4)
@@ -2687,9 +2691,9 @@ packages:
       reselect: 4.1.8
     dev: false
 
-  /@remix-run/router@1.6.1:
-    resolution: {integrity: sha512-YUkWj+xs0oOzBe74OgErsuR3wVn+efrFhXBWrit50kOiED+pvQe2r6MWY0iJMQU/mSVKxvNzL4ZaYvjdX+G7ZA==}
-    engines: {node: '>=14'}
+  /@remix-run/router@1.22.0:
+    resolution: {integrity: sha512-MBOl8MeOzpK0HQQQshKB7pABXbmyHizdTpqnrIseTbsv0nAepwC2ENZa1aaBExNQcpLoXmWthhak8SABLzvGPw==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@rollup/plugin-babel@5.3.1(@babel/core@7.21.8)(rollup@2.79.1):
@@ -10625,26 +10629,26 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /react-router-dom@6.11.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-dPC2MhoPeTQ1YUOt5uIK376SMNWbwUxYRWk2ZmTT4fZfwlOvabF8uduRKKJIyfkCZvMgiF0GSCQckmkGGijIrg==}
-    engines: {node: '>=14'}
+  /react-router-dom@6.29.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pkEbJPATRJ2iotK+wUwHfy0xs2T59YPEN8BQxVCPeBZvK7kfPESRc/nyxzdcxR17hXgUPYx2whMwl+eo9cUdnQ==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.6.1
+      '@remix-run/router': 1.22.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-router: 6.11.1(react@18.2.0)
+      react-router: 6.29.0(react@18.2.0)
     dev: false
 
-  /react-router@6.11.1(react@18.2.0):
-    resolution: {integrity: sha512-OZINSdjJ2WgvAi7hgNLazrEV8SGn6xrKA+MkJe9wVDMZ3zQ6fdJocUjpCUCI0cNrelWjcvon0S/QK/j0NzL3KA==}
-    engines: {node: '>=14'}
+  /react-router@6.29.0(react@18.2.0):
+    resolution: {integrity: sha512-DXZJoE0q+KyeVw75Ck6GkPxFak63C4fGqZGNijnWgzB/HzSP1ZfTlBj5COaGWwhrMQ/R8bXiq5Ooy4KG+ReyjQ==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
     dependencies:
-      '@remix-run/router': 1.6.1
+      '@remix-run/router': 1.22.0
       react: 18.2.0
     dev: false
 
