@@ -5,7 +5,7 @@
   "homepage": ".",
   "packageManager": "^pnpm@7.5.0",
   "dependencies": {
-    "@ant-design/icons": "5.0.1",
+    "@ant-design/icons": "5.6.1",
     "@ant-design/plots": "1.2.5",
     "@antv/g2": "4.2.10",
     "@babel/plugin-syntax-flow": "7.21.4",
